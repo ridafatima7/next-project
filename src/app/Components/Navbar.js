@@ -8,16 +8,10 @@ const Navbar = () => {
             HOME
         </Link>
         <Link className='navbar_link relative' href='#'>
-            CATEGORIES
+            MENU
         </Link>
         <Link className='navbar_link relative' href='#'>
-            MEN
-        </Link>
-        <Link className='navbar_link relative' href='#'>
-            WOMEN
-        </Link>
-        <Link className='navbar_link relative' href='#'>
-            KIDS
+            CONTACT
         </Link>
       </div>
     </div>

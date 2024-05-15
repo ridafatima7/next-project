@@ -3,6 +3,8 @@ import './globals.css'
 import HeaderTop from './Components/HeaderTop'
 import Header from './Components/Header'
 import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
+import Hero from './Components/Hero'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,7 +20,9 @@ export default function RootLayout({ children }) {
         <HeaderTop />
         <Header />
         <Navbar />
+        <Hero />
         {children}
+        <Footer />
         </body>
     </html>
   )

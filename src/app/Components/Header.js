@@ -3,13 +3,13 @@ import { BsSearch } from 'react-icons/bs';
 import {BiUser} from 'react-icons/bi';
 import {FiHeart} from 'react-icons/fi';
 import {HiOutlineShoppingBag}  from 'react-icons/hi';
-import Logo from './assets/Logo.png';
+import Image from 'next/image';
 const Header = () => {
   return (
     <div className='border-b border-gray-200 py-6'>
-      <div className='container sm:flex justify-between item-center'>
+      <div className='container sm:flex justify-between item-center' style={{alignItems:'center'}}>
         <div className='font-bold text-4x1 text-center pb-4 sm:pb-0 text-blackish '>
-           <img src={Logo} alt='' />
+           <Image src='/Logo.png'   alt='' width={50}  height={50}/>
         </div>
         <div className='w-full sm:w-[300px] md:w-[70%] relative'>
           <input type='text' className='border-gray-200 border  p-2  px-4  rounded-lg w-full' placeholder='Search Product....'>
