@@ -5,7 +5,6 @@ import heroImg from '../Components/assets/HeroImage.png'
 import {UilPhone} from  '@iconscout/react-unicons'
 import cherry from '../Components/assets/Cherry.png';
 import pizza from '../Components/assets/p1.jpg';
-
 const Hero = () => {
     return (
         <div className='heroContainer'>
@@ -50,5 +49,4 @@ const Hero = () => {
         </div>
     )
 }
-
 export default Hero

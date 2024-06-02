@@ -5,6 +5,8 @@ import Header from './Components/Header'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import Hero from './Components/Hero'
+import Services from './Components/Services'
+import Pizza from './Components/Pizza'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +23,8 @@ export default function RootLayout({ children }) {
         <Header />
         <Navbar />
         <Hero />
+        <Services />
+        <Pizza />
         {children}
         <Footer />
         </body>
